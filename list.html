@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="list.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <title>Figma topshiriq 8</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -23,12 +23,23 @@
             <nav class="header__nav">
                 <div class="header__links">
                     <a href="#" class="header__item">NAMANGANLIKLAR24</a>
-                    <p class="header__text"><span class="money">$ </span> 10137.2<span class="money">P</span>
+                    <p class="header__text"><span class="money">$</span> 10137.2<span class="money">P</span>
                         138.26<span class="money">E</span> 10988.72</p>
                 </div>
 
-                <div class="header__btn">
-                    <button class="btn"><img src="images/telegram.svg" alt="img">Подписатся</button>
+                <div class="header__buttons">
+                    <div class="header__search">
+                        <img class="search" src="images/search.svg" alt="search">
+                    </div>
+
+                    <div class="header__lang">
+                        <img class="flag" src="images/rassiya.svg" alt="russiya">
+                        <p class="header__translate">РУ</p>
+                    </div>
+
+                    <div class="header__btn">
+                        <button class="btn"><img src="images/telegram.svg" alt="img">Подписатся</button>
+                    </div>
                 </div>
             </nav>
 
@@ -37,7 +48,7 @@
                     <li class="header__link"><a href="list.html" class="header__doc">Узбекистана</a></li>
                     <li class="header__link"><a href="#" class="header__doc">Мир</a></li>
                     <li class="header__link"><a href="#" class="header__doc">Экономика</a></li>
-                    <li class="header__link"><a href="#" class="header__doc">Политика</a></li>
+                    <li class="header__link"><a href="article.html" class="header__doc__politics">Политика</a></li>
                     <li class="header__link"><a href="#" class="header__doc">Общество</a></li>
                     <li class="header__link"><a href="#" class="header__doc">Технологии</a></li>
                     <li class="header__link"><a href="#" class="header__doc">Спорт</a></li>
@@ -85,58 +96,6 @@
                     <span class="died__text">12</span>
                 </p>
             </div>
-        </div>
-    </section>
-
-    <section class="president container">
-        <div class="president__cards">
-            <div class="president__card">
-                <img class="president__img" src="images/prezident.png" alt="prezident">
-                <p class="president__text">Мирзиёев рассказал, зачем было построено
-                    Сардобинское водохранилище</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-            <div class="president__card">
-                <img class="president__img" src="images/karantin.png" alt="karantin">
-                <p class="president__text">Карантин в Узбекистане продлен до 1 июня</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-            <div class="president__card">
-                <img class="president__img" src="images/sardoba.png" alt="sardoba">
-                <p class="president__text">Обмелевшая Сардоба: стихия или
-                    человеческий фактор?</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-            <div class="president__card">
-                <img class="president__img" src="images/prokuror.png" alt="prokuror">
-                <p class="president__text">Следствие проверяет четыре версии
-                    прорыва Сардобинской плотины</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-            <div class="president__card">
-                <img class="president__img" src="images/tez-yordam.png" alt="tez-yordam">
-                <p class="president__text">Выявлено еще 7 случаев коронавируса</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-            <div class="president__card">
-                <img class="president__img" src="images/stop-karantin.png" alt="stop karantin">
-                <p class="president__text">Итоги второго месяца карантина</p>
-                <p class="president__number">05:28 / 16.05.2020</p>
-            </div>
-
-        </div>
-
-        <div class="president__handbell">
-            <img class="president__handbell__img" src="images/bell-icon@2x.svg" alt="handball">
-            <p class="president__handbell__text">Хотите узнать новости первыми? подключите уведомления!
-            </p>
-            <button class="president__handbell__btn">Включит уведомления!
-            </button>
         </div>
     </section>
 
@@ -254,6 +213,62 @@
                 </div>
             </div>
 
+            <div class="last__news__card">
+                <div class="last__news__card__img">
+                    <img src="images/Rectangle 24.png" alt="shahar">
+                </div>
+
+                <div class="last__news__card__texts">
+                    <h4 class="last__news__card__word">По факту прорыва Сардобинского водохранилища
+                        возбуждено уголовное дело</h4>
+                    <p class="last__news__card__text">После прорыва дамбы Сардобинского водохранилища возбуждено
+                        уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <div class="last__news__logo">
+                        <img class="card__logo" src="images/kalendar.svg" alt="kalendar">
+                        <span class="last__news__logo__time">11:31 / 15.05.2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last__news__card">
+                <div class="last__news__card__img">
+                    <img src="images/Rectangle 21.png" alt="shahar">
+                </div>
+
+                <div class="last__news__card__texts">
+                    <h4 class="last__news__card__word">По факту прорыва Сардобинского водохранилища
+                        возбуждено уголовное дело</h4>
+                    <p class="last__news__card__text">После прорыва дамбы Сардобинского водохранилища возбуждено
+                        уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <div class="last__news__logo">
+                        <img class="card__logo" src="images/kalendar.svg" alt="kalendar">
+                        <span class="last__news__logo__time">11:31 / 15.05.2020</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last__news__card">
+                <div class="last__news__card__img">
+                    <img src="images/Rectangle 23.png" alt="prezident">
+                </div>
+
+                <div class="last__news__card__texts">
+                    <h4 class="last__news__card__word">Мирзиёев: «Нам следовало бы принять некоторые правила
+                        карантина как часть повседневной жизни»
+                    </h4>
+                    <p class="last__news__card__text">Президент Узбекистана заявил, что после того, как угроза
+                        коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как
+                        часть своей повседневной жизни.
+                    </p>
+                    <div class="last__news__logo">
+                        <img class="card__logo" src="images/kalendar.svg" alt="kalendar">
+                        <span class="last__news__logo__time">11:31 / 15.05.2020</span>
+                    </div>
+                </div>
+            </div>
+
             <button class="last__news__left__btn">Больше новостей</button>
         </div>
 
@@ -297,21 +312,7 @@
         </div>
     </section>
 
-    <section class="telephone container">
-        <div class="telephone__img">
-            <img src="images/phone.png" alt="phone">
-        </div>
-        <div class="telephone__texts">
-            <h3 class="telephone__always">Всегда будьте в курсе последних новостей!</h3>
-            <p class="telephone__mobile">Установите мобильное приложение NAMANGANLIKLAR24
-                и все новости в вашем кармане!</p>
-        </div>
-
-        <div class="telephone__playmarket">
-            <img src="images/googleplay 1.png" alt="google">
-            <img src="images/appstore 1.png" alt="appstore">
-        </div>
-    </section>
+    
 
     <footer class="footer">
         <div class="container">
